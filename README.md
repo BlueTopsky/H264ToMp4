@@ -9,3 +9,6 @@ if (mp4Encoder.packet2Mp4("/Users/topsky/Desktop/H264/demo/ass.h264", "/Users/to
     return -1;
 }
 ```
+
+1. mp4v2源码下载地址：http://www.codeforge.cn/article/259182 
+2. 编译步骤参照INSTALL文件，生成的libmp4v2.a在目录.libs中，so库需要用ndk编译，编译后的库已经上传至项目中
